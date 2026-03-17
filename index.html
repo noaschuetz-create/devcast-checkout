@@ -49,21 +49,3 @@
   </script>
 </body>
 </html>
-```
-
-Ative o GitHub Pages neste repo (Settings → Pages → main branch). A URL será:
-`https://SEU_USUARIO.github.io/devcast-checkout/?session_id={CHECKOUT_SESSION_ID}`
-
----
-
-## 3. Criar os Payment Links no Stripe
-
-No Stripe Dashboard → Payment Links → Create:
-
-**Para cada produto:**
-
-- Product: DevCast Lite / Pro
-- After payment: **Redirect to URL**
-- URL:
-```
-https://SEU_USUARIO.github.io/devcast-checkout/?session_id={CHECKOUT_SESSION_ID}
